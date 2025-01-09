@@ -54,16 +54,18 @@ img {
     align-content: space-evenly;
     justify-content: space-evenly;
     flex-grow:1;
-
-      
   }
 
 .activity-card {
   flex-grow: 1;
- 
-  
-  
 }
+
 .image {
-justify-content: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
+
+ 
+
+      
