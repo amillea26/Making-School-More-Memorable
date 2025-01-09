@@ -1,0 +1,69 @@
+/* body style */
+body {
+  background: lightgray;
+  text-align: left;
+}
+p {
+  color: black;
+  font-family: cursive;
+  font-weight:bold;
+    text-align:center;
+}
+
+ol {
+  font-weight: bold;
+  color:darkorange;
+  font-family: cursive;
+  margin-left: 13px;
+  width:200px;
+}
+
+/* title style */
+h1 {
+ font-family: cursive;
+  font-size:32px;
+  font-weight: bold;
+  border-color:orangered;
+  border-style: dashed;
+  color: darkred;
+  text-align: center;
+}
+  
+  /* subtitle style */
+h2 {
+  font-family: cursive;
+  color:darkred;
+  text-align: center;
+  }
+
+img {
+  float:right;
+  width:380px;
+  border-style:dashed;
+  border-color:darkred;
+    border-width:6px;
+  border-radius:30px;
+  height:300px;
+  margin-bottom: 20px;
+}
+  
+  .gallery {
+    display:flex;
+      flex-wrap:nowrap;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    flex-grow:1;
+
+      
+  }
+
+.activity-card {
+  flex-grow: 1;
+ 
+  
+  
+}
+.image {
+justify-content: flex-end;
+}
